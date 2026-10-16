@@ -876,7 +876,8 @@
     "12038352294",
     "12043692173",
     "12046230526",
-    "12050733956"
+    "12050733956",
+    "12055315703"
   ],
   "confirmed": {
     "jl_658_ar2-eyestrike": {
@@ -1087,7 +1088,7 @@
       "0": 49
     },
     "jl_214_ka": {
-      "0": 6103
+      "0": 6500
     },
     "jl_172_lbingo": {
       "0": 49
@@ -1180,7 +1181,7 @@
       "0": 511
     },
     "jl_597_gb": {
-      "0": 6372
+      "0": 6377
     },
     "jl_605_jpjf": {
       "0": 1506
@@ -1273,13 +1274,13 @@
       "0": 191
     },
     "jl_639_tgr": {
-      "0": 48096
+      "0": 49086
     },
     "jl_401_bboss": {
       "0": 1645
     },
     "jl_304_uap": {
-      "0": 45063
+      "0": 46053
     },
     "jl_44_fivestar": {
       "0": 2439
@@ -1464,7 +1465,7 @@
     "jl_664_lj500": {
       "revision": "20261015-async-info-v1",
       "status": "paused",
-      "reason": "来源网络失败（未重放 Spin）"
+      "reason": "HTTP 503"
     },
     "jl_637_rx10000": {
       "revision": "20261015-async-info-v1",
@@ -1703,7 +1704,7 @@
     "jl_214_ka": {
       "revision": "20261015-async-info-v1",
       "status": "paused",
-      "reason": "HTTP 503"
+      "reason": "来源网络失败（未重放 Spin）"
     },
     "jl_732_goldenempire1000": {
       "revision": "20261015-async-info-v1",
@@ -1873,7 +1874,7 @@
     "jl_597_gb": {
       "revision": "20261015-async-info-v1",
       "status": "paused",
-      "reason": "HTTP 503"
+      "reason": "来源网络失败（未重放 Spin）"
     },
     "jl_598_lm": {
       "revision": "20261015-async-info-v1",

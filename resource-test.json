@@ -1,0 +1,18 @@
+{
+  "mode": "offline-verify",
+  "games": 20,
+  "samples": 20,
+  "passed": true,
+  "peakRssMiB": 1199,
+  "wallSeconds": 2,
+  "freeBytes": 765638242304,
+  "failed": [],
+  "measuredAt": "2026-10-16T01:42:21.242Z",
+  "runId": null,
+  "note": "离线复验并发资源测量：不构成 20 款并发放行证据",
+  "operatorOverride": {
+    "approvedBy": "human",
+    "at": "2026-10-16T01:42:21.284Z",
+    "note": "人类要求单节点同时开启 20 款游戏采集，报错则换其他游戏，直到同时可采不足 10 款再释放节点"
+  }
+}

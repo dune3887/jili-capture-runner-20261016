@@ -1,0 +1,161 @@
+{
+  "createdAt": "2026-10-16T01:42:43.689Z",
+  "sourceCommit": "0188e9a28532db1cd4357daf7cb43e17a8d84c7f",
+  "basePublicCommit": "fa74fab8e129dd09053c414f0e8c43269f2e6621",
+  "changedEngineFiles": [
+    "campaign-contract.cjs",
+    "campaign-worker.cjs",
+    "campaign-state.cjs",
+    "capture-jl.cjs"
+  ],
+  "spinIntervalMs": 500,
+  "maxRecreate": 0,
+  "sdkContentTypePreserved": true,
+  "infoAfterSpin": true,
+  "testsPassed": 55,
+  "manifestUnchanged": true,
+  "resultPublicKeyUnchanged": true,
+  "captureSha256": "aa5eb7581f3c0b917c60af5e05284a61e65087fc0e672e44418ec26edac4565f",
+  "maxSessionRelogin": 3,
+  "evidenceVersion": 1,
+  "engineFiles": {
+    "capture-jl.cjs": "ac700e04170dfe5e2629a3201050676e128980a6e953e833de0171bb38631018",
+    "capture-transport.cjs": "899f973335df83cdf5e9faed0cd9813ae94b9d2a4d0b536cc1294bb6e1a04ef9",
+    "campaign-worker.cjs": "03e8d3ca001cce565e150fec1762be5a8c1a5983d45580f0d6998d3045ff35cf",
+    "campaign-contract.cjs": "090d9303eba05fcf60227375ea45e00bed926d7a53754be2cb733250ecd79705",
+    "campaign-state.cjs": "6ed949ccebc6749102fc3ba0d3f5960ceaffcc6ee45044863994bcbd19bed5ef",
+    "games.cjs": "10507de54b8be0710e6168b44c8d643f0b5af11b52be0320f2dea722a77786b9",
+    "campaign-pauses.json": "fdb079e64d9ad4eb6a9c4b186844efb5718d67f938f86419d25c4ea1afa8b09c"
+  },
+  "clientFlowRevalidation": "",
+  "asyncTransport": true,
+  "infoNetworkRetries": 2,
+  "linuxInfo": true,
+  "fg4Fg5SessionRelogin": 0,
+  "pilotRunId": 38690535862,
+  "pilotActualImported": 120,
+  "pilotFg4Fg5ActualImported": {
+    "540": 30,
+    "696": 30
+  },
+  "pilotFg4Fg5SingleSession": true,
+  "newlyReviewedSessionRelogin": 0,
+  "existingSessionReloginGames": [
+    304,
+    639
+  ],
+  "scheduling": {
+    "nodes": 1,
+    "gamesPerBatch": 20,
+    "concurrencyPerBatch": 20,
+    "hardMaxPerBatch": 20,
+    "resourceTestGate": "resource-test.json",
+    "maxBatchesPerRun": 4,
+    "artifactPerBatch": 1,
+    "batchCursor": "real-gameId",
+    "legacyLaneNumbers": "audit-only",
+    "minActiveGames": 10,
+    "minActiveGamesNote": "池子原本≥10 款时，批间同时可采不足 10 款即提前释放节点；池子本身不足 10 款时继续采集，不空转等待"
+  },
+  "changedPublicFiles": [
+    ".github/workflows/jili-capture.yml",
+    "github-runner.cjs",
+    "campaign-contract.cjs",
+    "campaign-contract.test.cjs",
+    "campaign-worker.cjs",
+    "campaign-state.cjs",
+    "campaign-batch.test.cjs",
+    "campaign-state.test.cjs",
+    "campaign-worker.test.cjs",
+    "campaign-delivery.test.cjs",
+    "checkpoint-finalize.cjs",
+    "campaign-state.json",
+    "engine.enc.1.json",
+    "engine.enc.2.json",
+    "engine.enc.json",
+    "release.json"
+  ],
+  "legacyMigration": {
+    "source": "archived-legacy-artifacts",
+    "lanes": 100,
+    "modules": 143,
+    "withProfile": 142,
+    "stateBytes": 106290
+  },
+  "checkpointPolicy": "only-advance-on-contiguous-upload-success",
+  "uploadFailurePolicy": "keep-originals-and-recapture",
+  "sourceFingerprint": "d466b859c892fed6bd97ad4030be45e6f81455ee8957e6379a9a2bf94cec8100",
+  "cutoverPublishedAt": "2026-10-15T16:11:27.602Z",
+  "cutoverCommits": {
+    "latest": "413411a9b2abe96b15a129b8cc52096690281a49"
+  },
+  "publishedNewline": "GitHub 网页编辑器对部分文件在 JSON 外层追加一个末尾换行；两片解密内容与候选逐字节一致",
+  "publishedFiles": {
+    "engine.enc.1.json": {
+      "sha256": "adfaf02ac68f05bba0005e8b024e85745982b174a244842a38cb6d7484e573af",
+      "bytes": 765255,
+      "blob": "75884d3556a3150cf82ad76ee5611724587ff89c"
+    },
+    "engine.enc.2.json": {
+      "sha256": "ef65489427ca6d8dfe8ff2c75ed30d3fe591ce2ee9d61182866ae39afe3757be",
+      "bytes": 765192,
+      "blob": "3bea910085fa664d8097f49f9e2f530ded79ae7a"
+    },
+    ".github/workflows/jili-capture.yml": {
+      "sha256": "fcf8dc00c429a428d989458a1cc0f17c5e0aca6de6e2f273c9c848b6b73d62e5",
+      "bytes": 6107,
+      "blob": "14de5e6571016373e854d3689d282f445a71430a"
+    },
+    "github-runner.cjs": {
+      "sha256": "5842a5f7f7f7aa7872309b9a25be3024c76521eb9259d38f8d325eaaa3807bab",
+      "bytes": 13156,
+      "blob": "f82dde5be5ca96a80adc6125fe2eb000e82487cb"
+    },
+    "campaign-contract.cjs": {
+      "sha256": "2c40f93073b562af79b28b14fa67ece87c9c438c8e508bb036bd98c9bd1c0fb8",
+      "bytes": 11070,
+      "blob": "750ad1bd46c2d4b2e262e3e9309e949dcacd58bf"
+    },
+    "campaign-worker.cjs": {
+      "sha256": "03e8d3ca001cce565e150fec1762be5a8c1a5983d45580f0d6998d3045ff35cf",
+      "bytes": 14165,
+      "blob": "bb0ad3da7ad5305db90b28b4628b9df5a6a857c5"
+    },
+    "campaign-state.cjs": {
+      "sha256": "6ed949ccebc6749102fc3ba0d3f5960ceaffcc6ee45044863994bcbd19bed5ef",
+      "bytes": 6688,
+      "blob": "138db99934adc4491ce833d21d8589ff5de6bc88"
+    },
+    "checkpoint-finalize.cjs": {
+      "sha256": "864db8728aa49369140bad16fa822587e6f47685c40061c038c03285197fc24f",
+      "bytes": 1373,
+      "blob": "b40065d1afb660300fd4344dfaf49f0370ce823b"
+    }
+  },
+  "effectiveEngineVerified": true,
+  "publishedParts": {
+    "sha256": "adfaf02ac68f05bba0005e8b024e85745982b174a244842a38cb6d7484e573af",
+    "bytes": 765255,
+    "blob": "75884d3556a3150cf82ad76ee5611724587ff89c"
+  },
+  "spinIntervalNote": "人类要求 0.5 秒一局：Spin 起点间隔 500ms + 最多 100ms 抖动；逐局 Info 复验保留，底层 HTTP 仍 ≥500ms，故含 Info 的实际单局周期约 1.0-1.1 秒",
+  "concurrencyEvidence": {
+    "mode": "offline-verify",
+    "games": 20,
+    "peakRssMiB": 1199,
+    "passed": true,
+    "operatorOverride": {
+      "approvedBy": "human",
+      "note": "人类要求单节点同时开启 20 款采集"
+    }
+  },
+  "repository": "dune3887/jili-capture-runner-20261016",
+  "releasedAt": "2026-10-16T11:16:12.465099+00:00",
+  "migration": {
+    "fromDeletedRepository": "dune3887/jili-capture-public-runner",
+    "preserveCampaign": "jili-20261013-v1",
+    "preserveBlocked": true,
+    "confirmed": 185337,
+    "artifacts": 873
+  }
+}
